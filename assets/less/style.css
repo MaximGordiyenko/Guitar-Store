@@ -98,7 +98,7 @@ section.best-seller {
   display: flex;
 }
 section.best-seller > div {
-  min-height: 255px;
+  min-height: 265px;
   height: 180px;
 }
 section.best-seller > div:nth-child(1) {
@@ -125,6 +125,13 @@ section.best-seller > div:nth-child(2) {
   width: 60%;
   padding-left: 50px;
 }
+section.best-seller > div:nth-child(2):hover:before {
+  content: url("../images/star.png");
+  position: absolute;
+  top: 25px;
+  left: -290px;
+  color: #f6c107;
+}
 section.best-seller > div:nth-child(2):after {
   content: "SALE";
   position: absolute;
@@ -135,12 +142,14 @@ section.best-seller > div:nth-child(2):after {
   color: #d1c8ce;
   transform: rotate(-45deg);
 }
+section.best-seller > div:nth-child(2) h2 {
+  padding-top: 15px;
+}
 section.best-seller > div:nth-child(2) em {
   color: #39a7f1;
   font-size: 14px;
-  font-weight: bold;
 }
-section.best-seller > div:nth-child(2) P {
+section.best-seller > div:nth-child(2) p {
   font-size: 45px;
   padding-top: 20px;
 }
@@ -153,14 +162,7 @@ section.best-seller > div:nth-child(2) button {
   color: #39a7f1;
   background: none;
   padding: 12px;
-}
-section.best-seller > div:nth-child(2) .rating {
-  unicode-bidi: bidi-override;
-}
-section.best-seller > div:nth-child(2) .rating span:hover:before {
-  content: "\2605";
-  position: absolute;
-  color: #f6c107;
+  margin: 10px 0 5px;
 }
 .most-popular {
   display: flex;
