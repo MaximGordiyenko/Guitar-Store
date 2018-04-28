@@ -156,10 +156,6 @@ body {
             }
         }
         & > div:nth-child(2) {
-            h2{
-                font-size: 22px;
-                padding-top: 22px;
-            }
             position: relative;
             background: rgba(255, 255, 255, .7);
             width: 60%;
@@ -167,12 +163,16 @@ body {
             &:after {
                 content: "SALE";
                 position: absolute;
-                top: 95px;
-                left: 355px;
-                font-size: 7vw;
+                top: 70px;
+                left: 345px;
+                font-size: 6vw;
                 font-weight: bold;
                 color: #d1c8ce;
                 transform: rotate(-45deg);
+            }
+            h2{
+                font-size: 22px;
+                padding-top: 22px;
             }
             em {
                 color: @color-light;
@@ -282,9 +282,9 @@ body {
             display: flex;
             justify-content: space-around;
             background: #34495e;
-            padding: 30px 150px;
+            padding: 30px 75px;
             li {
-                display: flex;
+                margin: 0 10px;
                 list-style-type: none;
             }
             a {

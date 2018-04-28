@@ -154,19 +154,19 @@ body {
   width: 60%;
   padding-left: 50px;
 }
-.container .best-seller > div:nth-child(2) h2 {
-  font-size: 22px;
-  padding-top: 22px;
-}
 .container .best-seller > div:nth-child(2):after {
   content: "SALE";
   position: absolute;
-  top: 95px;
-  left: 355px;
-  font-size: 7vw;
+  top: 70px;
+  left: 345px;
+  font-size: 6vw;
   font-weight: bold;
   color: #d1c8ce;
   transform: rotate(-45deg);
+}
+.container .best-seller > div:nth-child(2) h2 {
+  font-size: 22px;
+  padding-top: 22px;
 }
 .container .best-seller > div:nth-child(2) em {
   color: #39a7f1;
@@ -272,10 +272,10 @@ body {
   display: flex;
   justify-content: space-around;
   background: #34495e;
-  padding: 30px 150px;
+  padding: 30px 75px;
 }
 .container .info ul li {
-  display: flex;
+  margin: 0 10px;
   list-style-type: none;
 }
 .container .info ul a {

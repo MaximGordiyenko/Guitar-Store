@@ -1,0 +1,106 @@
+@media only screen and (max-width: 992px) {
+  .container .header-top > div:nth-child(1) {
+    width: 65%;
+    padding-left: 40px;
+    transition: 2s;
+  }
+  .container .header-center {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .container .header-center ul li {
+    margin: 5px 25px;
+  }
+  .container .best-seller > div:nth-child(2):after {
+    top: 80px;
+    left: 270px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container .header-top div:nth-child(2) {
+    padding: 20px 10px 10px;
+  }
+  .container .header-center div img {
+    display: none;
+  }
+  .container .header-center ul li a {
+    font-size: 10px;
+  }
+  .container .best-seller > div:nth-child(2):after {
+    top: 100px;
+    left: 250px;
+    transform: rotate(-90deg);
+  }
+  .container .best-seller > div:nth-child(2) p {
+    font-size: 26px;
+  }
+  .container .info ul li a {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .container .best-seller > div:nth-child(2):after {
+    display: none;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .container .header-top div:nth-child(1) {
+    display: none;
+  }
+  .container .header-top div:nth-child(2) {
+    width: 100%;
+    padding: 15px 10px 15px;
+  }
+  .container .header-center {
+    padding: 10px 30px;
+  }
+  .container .header-center ul {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .container .header-bottom div:nth-child(3) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container .header-bottom div:nth-child(3) img {
+    width: 45%;
+    margin: 0 auto;
+  }
+  .container .header-bottom div:nth-child(3) img:nth-of-type(3) {
+    display: none;
+  }
+  .container .best-seller div:nth-child(1) {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .container .best-seller div:nth-child(1):hover:after {
+    content: "PRICE $100";
+    display: block;
+  }
+  .container .best-seller > div:nth-child(2) {
+    display: none;
+  }
+  .container .most-popular {
+    flex-wrap: wrap;
+  }
+  .container .most-popular .popular-item {
+    width: 100%;
+  }
+  .container .explore button {
+    font-size: 2em;
+    margin: auto 20px;
+  }
+  .container .info ul {
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 15px 0;
+  }
+  .container .info ul li {
+    align-self: center;
+    margin: 3px 10px;
+  }
+  .container .info ul li a {
+    font-size: 13px;
+  }
+}
+/*# sourceMappingURL=media.css.map */
