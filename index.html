@@ -1,116 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Guitar shop</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/less/style.css">
-    <link rel="stylesheet" href="assets/less/media.css">
+  <meta charset="UTF-8">
+  <title>Guitar shop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/less/style.css">
+  <link rel="stylesheet" href="assets/less/media.css">
 </head>
 <body>
 <div class="container">
-    <header>
-        <div class="header-top">
-            <div>Viola! Welcome to GITAR KEREN, Find your dream guitar here! Happy shopping ^^</div>
-            <div>
-                <ul>
-                    <li><a href="#">Register</a></li>
-                    <li><a href="#">Sing in</a></li>
-                    <li><a href="#">Cart</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="header-center">
-            <div>
-                <img src="assets/images/logo.png" alt="logo">
-            </div>
-            <nav>
-                <!--ul>li*5>a-->
-                <ul>
-                    <li><a class="active" href="#">Home</a></li>
-                    <li><a href="#">Accessories</a></li>
-                    <li><a href="#">Best buy</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="header-bottom">
-            <div class="prev-btn">&lt;</div>
-            <div class="next-btn">&gt;</div>
-            <div>
-                <img src="assets/images/g1.jpg" alt="">
-                <img src="assets/images/g2.jpg" alt="">
-                <img src="assets/images/g3.jpg" alt="">
-            </div>
-        </div>
-    </header>
-    <section class="best-seller">
-        <div>
-            <p>Best Seller</p>
-            <img src="assets/images/git1.png" alt="">
-        </div>
-        <div>
-            <h2>Yamaha FG700S</h2>
-            <em>by Yamaha Guitar</em>
-            <p>Price: 100$</p>
-            <button>Add to card</button>
-            <div class="rating">
-                <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
-            </div>
-            <p>Give Customer review </p>
-        </div>
-    </section>
-    <section class="most-popular">
-        <div class="popular-item">
-            <img src="assets/images/git2.png" alt="">
-            <h2>Yamaha</h2>
-            <em>by Yamaha Guitar</em>
-            <h2>Price: 100$</h2>
-            <button>Add to card</button>
-        </div>
-        <div class="popular-item">
-            <img src="assets/images/git2.png" alt="">
-            <h2>Yamaha</h2>
-            <em>by Yamaha Guitar</em>
-            <h2>Price: 100$</h2>
-            <button>Add to card</button>
-        </div>
-        <div class="popular-item">
-            <img src="assets/images/git3.png" alt="">
-            <h2>Yamaha</h2>
-            <em>by Yamaha Guitar</em>
-            <h2>Price: 100$</h2>
-            <button>Add to card</button>
-        </div>
-    </section>
-    <section class="explore">
-        <button><a href="#">Explore Guitar</a></button>
-    </section>
-    <footer class="info">
+  <header>
+    <div class="header-top">
+      <div>Viola! Welcome to GITAR KEREN, Find your dream guitar here! Happy shopping ^^</div>
+      <div>
         <ul>
-            <li><a href="#">How to buy</a></li>
-            <li><a href="#">Return policy</a></li>
-            <li><a href="#">Review</a></li>
-            <li><a href="#">Security payment</a></li>
-            <li><a href="#">Term and condition</a></li>
+          <li><a href="#">Register</a></li>
+          <li><a href="#">Sing in</a></li>
+          <li><a href="#">Cart</a></li>
         </ul>
-        <div class="craft">
-            <p>Crafted by <span>®Maxim Gordiyenko</span></p>
-            <p>Copyright 2015 GMO project</p>
-        </div>
-        <div class="social">
-            <div>
-                <img src="assets/images/fb.png" alt="facebook">
-            </div>
-            <div>
-                <img src="assets/images/tumbler.png" alt="">
-            </div>
-            <div>
-                <img src="assets/images/twitter.png" alt="">
-            </div>
-        </div>
-    </footer>
+      </div>
+    </div>
+    
+    <div class="header-center">
+      <div>
+        <img src="assets/images/logo.png" alt="logo">
+      </div>
+      
+      <nav class="topnav">
+        <!--ul>li*5>a-->
+        <ul class="menu">
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="#">Accessories</a></li>
+          <li><a href="#">Best buy</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+        <button class="icon" onclick="toggleAside()">&#9776;</button>
+      
+    </div>
+    
+    <div class="header-bottom">
+      <div class="prev-btn">&lt;</div>
+      <div class="next-btn">&gt;</div>
+      <div>
+        <img src="assets/images/g1.jpg" alt="guitar">
+        <img src="assets/images/g2.jpg" alt="guitar">
+        <img src="assets/images/g3.jpg" alt="guitar">
+      </div>
+    </div>
+  </header>
+  <section class="best-seller">
+    <div>
+      <p>Best Seller</p>
+      <img src="assets/images/git1.png" alt="">
+    </div>
+    <div>
+      <h2>Yamaha FG700S</h2>
+      <em>by Yamaha Guitar</em>
+      <p>Price: 100$</p>
+      <button>Add to card</button>
+      <div class="rating">
+        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+      </div>
+      <p>Give Customer review </p>
+    </div>
+  </section>
+  <section class="most-popular">
+    <div class="popular-item">
+      <img src="assets/images/git2.png" alt="">
+      <h2>Yamaha</h2>
+      <em>by Yamaha Guitar</em>
+      <h2>Price: 100$</h2>
+      <button>Add to card</button>
+    </div>
+    <div class="popular-item">
+      <img src="assets/images/git2.png" alt="">
+      <h2>Yamaha</h2>
+      <em>by Yamaha Guitar</em>
+      <h2>Price: 100$</h2>
+      <button>Add to card</button>
+    </div>
+    <div class="popular-item">
+      <img src="assets/images/git3.png" alt="">
+      <h2>Yamaha</h2>
+      <em>by Yamaha Guitar</em>
+      <h2>Price: 100$</h2>
+      <button>Add to card</button>
+    </div>
+  </section>
+  <section class="explore">
+    <button><a href="#">Explore Guitar</a></button>
+  </section>
+  <footer class="info">
+    <ul>
+      <li><a href="#">How to buy</a></li>
+      <li><a href="#">Return policy</a></li>
+      <li><a href="#">Review</a></li>
+      <li><a href="#">Security payment</a></li>
+      <li><a href="#">Term and condition</a></li>
+    </ul>
+    <div class="craft">
+      <p>Crafted by <span>®Maxim Gordiyenko</span></p>
+      <p>Copyright 2015 GMO project</p>
+    </div>
+    <div class="social">
+      <div>
+        <img src="assets/images/fb.png" alt="facebook">
+      </div>
+      <div>
+        <img src="assets/images/tumbler.png" alt="">
+      </div>
+      <div>
+        <img src="assets/images/twitter.png" alt="">
+      </div>
+    </div>
+  </footer>
 </div>
+<script src="assets/index.js"></script>
 </body>
 </html>

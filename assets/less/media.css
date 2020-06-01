@@ -1,3 +1,8 @@
+@media only screen and (max-width: 1920px) {
+  .container .header-center .icon {
+    display: none;
+  }
+}
 @media only screen and (max-width: 992px) {
   .container .header-top > div:nth-child(1) {
     width: 65%;
@@ -36,6 +41,11 @@
   }
   .container .info ul li a {
     font-size: 10px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .container .header-center img {
+    display: none;
   }
 }
 @media only screen and (max-width: 640px) {
@@ -101,6 +111,24 @@
   }
   .container .info ul li a {
     font-size: 13px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .container .header-center .topnav {
+    overflow: hidden;
+    position: relative;
+  }
+  .container .header-center .topnav .menu {
+    display: none;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .container .header-center .topnav {
+    overflow: hidden;
+    position: relative;
+  }
+  .container .header-center .topnav .menu {
+    display: none;
   }
 }
 /*# sourceMappingURL=media.css.map */

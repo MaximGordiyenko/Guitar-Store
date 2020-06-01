@@ -19,7 +19,7 @@ body {
 .container .header-top div {
   padding: 15px 0;
   color: #ffffff;
-  font-size: .7em;
+  font-size: 0.7em;
 }
 .container .header-top div:nth-child(1) {
   width: 65%;
@@ -72,6 +72,16 @@ body {
 }
 .container .header-center ul li .active {
   color: #ffffff;
+}
+.container .header-center .icon {
+  position: absolute;
+  right: 30px;
+  top: 40px;
+  font-size: 17px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: white;
 }
 .container .header-bottom {
   background: url("../images/bg-header.jpg") no-repeat;
@@ -238,7 +248,7 @@ body {
   outline: none;
   background: #ffffff;
   padding: 10px 0;
-  font-size: .8em;
+  font-size: 0.8em;
   font-weight: bold;
 }
 .container .most-popular .popular-item button:hover {
